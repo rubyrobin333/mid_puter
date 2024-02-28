@@ -158,13 +158,13 @@ function connectNoses() {
   strokeWeight(1);
   ellipse(midPoint.x, midPoint.y, 50, 50);
 
-  if (lerpAmount <= 0.10) {
+  if (lerpAmount <= 0.05) {
     //song2.play();
     songs[floor(random(songs.length))].play();
   }
 
 
-  if (lerpAmount >= 0.85) {
+  if (lerpAmount >= 0.95) {
     songs[floor(random(songs.length))].play();
   }
 
